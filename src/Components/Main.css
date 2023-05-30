@@ -1,0 +1,92 @@
+.embed-responsive-item {
+  width: 100%;
+  height: 100vh;
+}
+.main-bg {
+  display: none;
+}
+.videoTag {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.main-title {
+  position: absolute;
+  top: 40%;
+  z-index: 1;
+}
+
+.video-subtitle {
+  font-family: "SFUIText-Heavy";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 76px;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+.video-description {
+  font-family: "SFUIText-Heavy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+@media (max-width: 1200px) {
+  .main-title {
+    top: 30%;
+  }
+  .video-subtitle {
+    font-size: 58px;
+  }
+}
+@media (max-width: 992px) {
+  .main-title {
+    top: 35%;
+  }
+  .video-subtitle {
+    font-size: 35px;
+    line-height: 30px;
+  }
+  .video-description {
+    font-size: 35px;
+    line-height: 42px;
+  }
+}
+@media (max-device-width: 480px) {
+  .main-title {
+    top: 0;
+    margin: auto;
+    margin-top: 150px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .video-subtitle {
+    font-size: 22px;
+  }
+  .video-description {
+    font-size: 22px;
+    line-height: 18px;
+  }
+  .videoTag {
+    display: none;
+    max-width: 480px;
+    width: 100%;
+    height: auto;
+  }
+  .main-bg {
+    display: block;
+    position: relative;
+    background: url(../Img/main-bg.jpg) no-repeat center;
+
+    height: 300px;
+  }
+}

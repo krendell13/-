@@ -1,0 +1,101 @@
+.subscribe-item {
+  position: relative;
+  min-height: 827px;
+  height: 100%;
+  background: url(../Img/subscribe-bg.jpg) no-repeat center;
+  background-size: cover;
+}
+.subscribe-space {
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 181px;
+}
+.subscribe-left {
+  position: relative;
+}
+
+.subscribe-right {
+  background: rgba(0, 0, 0, 0.47);
+  border-radius: 5px;
+  padding: 70px 80px;
+}
+.subscribe-right-title {
+  margin-bottom: 54px;
+  font-family: "SFUIText-Semibold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.subscribe-right-wrap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 14px;
+}
+.subscribe-right-btn {
+  margin-top: 20px;
+  padding: 17px 113px;
+  background: #2847d7;
+  text-transform: uppercase;
+  font-family: "SFUIText-Semibold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 143.55%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.subscribe-modal-button {
+  background-color: rgb(0, 25, 252);
+}
+@media (max-width: 1200px) {
+  .subscribe-item {
+    min-height: 777px;
+  }
+  .subscribe-space {
+    padding-top: 131px;
+  }
+}
+@media (max-width: 992px) {
+  .subscribe-left {
+    display: none;
+  }
+  .subscribe-space {
+    justify-content: center;
+  }
+}
+@media (max-device-width: 480px) {
+  .subscribe-item {
+    min-height: 527px;
+    height: 100%;
+  }
+  .subscribe-space {
+    padding-top: 0;
+  }
+  .subscribe-right {
+    padding: 0;
+    padding-top: 40px;
+  }
+  .subscribe-right-btn {
+    padding: 17px 72px;
+  }
+  .form-control {
+    max-width: 230px;
+    margin: auto;
+  }
+  .input-group {
+    max-width: 270px;
+    width: 100%;
+  }
+  .subscribe-right {
+    background: none;
+  }
+}

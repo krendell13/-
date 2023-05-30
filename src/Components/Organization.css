@@ -1,0 +1,98 @@
+.organization {
+  position: relative;
+  max-width: 100%;
+  height: 361px;
+  background: url(../Img/org-bg.jpg) no-repeat center;
+  background-size: cover;
+}
+.org-title {
+  margin: auto;
+  padding-top: 100px;
+  text-align: center;
+  font-family: "SFUIText-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.org-items-all {
+  margin-top: 70px;
+  max-width: 1300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.org-item {
+  max-width: 239px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.org-item-title {
+  font-family: "SFUIText-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  text-align: center;
+  color: #ffffff;
+}
+.org-item-line {
+  width: 239px;
+  height: 1px;
+  background: #d9d9d9;
+}
+.org-item-subtitle {
+  font-family: "SFUIText-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 143.55%;
+  text-align: center;
+  color: #ffffff;
+}
+hr {
+  border: none;
+  opacity: 1;
+}
+
+@media (max-width: 1200px) {
+  .organization {
+    height: 600px;
+  }
+  .org-items-all {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 100px;
+  }
+  .org-item {
+    max-width: 300px;
+    margin-bottom: 80px;
+  }
+}
+@media (max-width: 768px) {
+  .org-item {
+    max-width: 250px;
+  }
+  .org-item-title {
+    font-size: 20px;
+  }
+  .org-item-line {
+    max-width: 200px;
+  }
+}
+
+@media (max-device-width: 480px) {
+  .organization {
+    height: 1000px;
+  }
+  .org-items-all {
+    justify-content: center;
+  }
+}

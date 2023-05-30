@@ -1,0 +1,121 @@
+.bg-newsletter {
+  max-width: 100%;
+  width: 100%;
+}
+.newsletter-item {
+  position: relative;
+  max-width: 100%;
+  height: 350px;
+  background: url(../Img/bg-newsletter.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.newsletter-title {
+  margin: auto;
+  padding-top: 75px;
+  display: flex;
+  align-items: center;
+  max-width: 606px;
+  width: 100%;
+  text-align: center;
+  font-family: "SFUIText-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+  z-index: 20;
+}
+.newsletter-form-wrap {
+  max-width: 1180px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.form-control {
+  max-width: 100%;
+  width: 313px;
+  padding: 16px 20px;
+  font-family: "SFUIText-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 143.55%;
+  color: #7b7b7b;
+}
+
+.form-btn {
+  padding: 17px 48px;
+  background: #003285;
+  text-transform: uppercase;
+  font-family: "SFUIText-Semibold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 143.55%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+@media (max-width: 1400px) {
+  .newsletter-form-input {
+    max-width: 250px;
+    width: 100%;
+  }
+}
+@media (max-width: 1200px) {
+  .newsletter-item {
+    height: 520px;
+  }
+  .newsletter-form-input {
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 14px;
+  }
+  .newsletter-form-wrap {
+    max-width: 313px;
+    justify-content: center;
+  }
+  .form-control {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .form-btn {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .newsletter-title {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .form-btn {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+}
+@media (max-device-width: 480px) {
+  .newsletter-title {
+    font-size: 15px;
+    max-width: 320px;
+  }
+  .newsletter-form-wrap {
+    max-width: 230px;
+    justify-content: center;
+    align-items: center;
+  }
+  .form-control {
+    width: 230px;
+  }
+  .form-btn {
+    padding-left: 72px;
+    padding-right: 72px;
+  }
+}

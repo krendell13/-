@@ -1,0 +1,136 @@
+.footer-bg {
+  background: #003285;
+}
+.footer-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer-left {
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer-left-item {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.footer-item-title {
+  margin-bottom: 25px;
+  font-family: "SFUIText-Semibold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.footer-link {
+  font-family: "SFUIText-Light";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+.footer-link:hover {
+  color: rgb(165, 165, 165);
+}
+.footer-right {
+  max-width: 85px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.footer-item-last {
+  text-align: center;
+  font-family: "SFUIText-Semibold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  padding-bottom: 40px;
+}
+.footer-item-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.footer-item-text {
+  margin-top: 15px;
+  font-family: "SFUIText-Medium";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  color: #ffffff;
+}
+@media (max-width: 1200px) {
+  .footer-logo {
+    width: 100px;
+  }
+  .footer-item-title {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  .footer-link {
+    font-size: 14px;
+  }
+  .footer-left {
+    max-width: 770px;
+  }
+  .footer-text {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 992px) {
+  .footer-logo {
+    width: 160px;
+    margin-bottom: 20px;
+  }
+  .footer-item {
+    margin: auto;
+    width: 350px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-item-title {
+    font-size: 16px;
+  }
+  .footer-link {
+    font-size: 16px;
+  }
+  .footer-left {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+  }
+  .footer-left-item {
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-right {
+    margin-top: 20px;
+  }
+}
+@media (max-device-width: 480px) {
+  .footer-item {
+    max-width: 280px;
+    width: 100%;
+  }
+  .nav-link {
+    text-align: center;
+  }
+}

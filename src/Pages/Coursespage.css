@@ -1,0 +1,100 @@
+.course-content-main {
+  height: auto;
+}
+.course-image-big {
+  position: relative;
+  width: 100%;
+}
+.course-big-description {
+  position: absolute;
+  left: 12%;
+  width: 100%;
+  top: 20%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.course-big-title {
+  font-family: "SFUIDisplay-Regular" sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.course-big-subtitle {
+  font-family: "SFUIDisplay-Bold" sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+.course-text-wrap {
+  max-width: 909px;
+  width: 100%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.course-text {
+  font-family: "SFUIDisplay-Regular" sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+.course-subtitle {
+  max-width: 909px;
+  width: 100%;
+  margin: auto;
+  margin-top: 40px;
+  font-family: "SFUIDisplay-Regular" sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+.course-accordion {
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+}
+.course-tab-link {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: rgb(0, 30, 197);
+}
+@media (max-device-width: 480px) {
+  .course-text {
+    max-width: 300px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .course-accordion {
+    max-width: 320px;
+  }
+  .course-big-description {
+    top: 465px;
+    left: 1%;
+  }
+  .course-big-subtitle {
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .course-big-title {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}
